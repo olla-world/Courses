@@ -1,0 +1,16 @@
+{
+    "list":[{
+        "topic": ["Array", "Complexity"],
+        "problems":[{
+            "des": "Write code to find a target value into a given array",
+            "type": "Example"
+        },{
+            "des": "Reverse a given array",
+            "type": "Example"
+        },{
+            "des": "Two Sum",
+            "type": "Home Work",
+            "link": "https://leetcode.com/problems/two-sum/"
+        }]
+    }]
+}
