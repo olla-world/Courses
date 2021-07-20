@@ -58,4 +58,41 @@ Assume we have an given array and a value. Now we have to find the value in the 
 
 Here we need 5 operations to get the __target__ value. These are the maximum number of operations for the array, in the case of Linear search, this is also known as the worst case of an algorithm.
 
-From this, we can conclude that the number of operations will be the same as the length of the array in the worst case.
+From this, we can conclude that the number of operations will be the same as the length of the array in the worst case. When the length of array is __n__, thime complexity will be __O(n)__
+
+Now we want to reverse the given array
+
+```Python
+    numbers = [2, 5, 3, 7, 4]
+    numbers_index = len(numbers) - 1
+    result = []
+
+    while(numbers_index>=0)
+        result.append(numbers[numbers_index])
+        numbers_index = numbers_index - 1 
+
+    return result
+```
+
+Here this while loop will run n times , where n is equal to the length of the array. So, number of operations will be n and the time complexity will be __O(n)__. Beside this we need a new array(__result__) which has same number of elements as __numbers__ array. For this, the memory complexity will be __O(n)__
+
+We can improve our solution
+
+```Python
+    numbers = [2, 5, 3, 7, 4]
+    numbers_index = len(numbers) - 1
+    start = 0
+    end = numbers_index
+
+    while(end>start)
+        temp = numbers[end]
+        numbers[end] = numbers[start]
+        numbers[start] = temp
+        end = end - 1
+        start = start + 1
+
+    return numbers
+```
+
+Now we don't need extra array, memory space remain constant. Memory complexity will be __O(1)__.
+While loop will run n/2 times where length of the array is equal to the n. So the complexity will be __O(n/2)__ 
