@@ -35,9 +35,6 @@ You can use the *for in* loop to loop through all the elements of an array. Prin
         print(m)
 ```
 
-\
-\
-\
 
 ## Time Complexity
 
