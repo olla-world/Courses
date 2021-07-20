@@ -1,3 +1,6 @@
 {
-    "list":["Lecture 01"]
+    "list":[{
+        "label":"Lecture 01",
+        "type": "lecture"
+    }]
 }
