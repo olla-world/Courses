@@ -10,9 +10,10 @@ Access a single element of array:
 `m = mangoes[0]`
 Modify the value of the first array item:
 `mangoes[0] = 'Hari bhanga'`
-Use the __len()__ method to return the length of an array 
+Use the __len()__ method to return the length of an array
 `l = len(mangoes)`
 You can use the __for in__ loop to loop through all the elements of an array. Print each item in the mangoes array:
+
 ```for m in mangoes:
     print(m)
 ```
