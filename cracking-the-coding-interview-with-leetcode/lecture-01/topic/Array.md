@@ -14,6 +14,7 @@ Use the __len()__ method to return the length of an array
 `l = len(mangoes)`
 You can use the __for in__ loop to loop through all the elements of an array. Print each item in the mangoes array:
 
-```for m in mangoes:
-    print(m)
+```Python
+    for m in mangoes:
+        print(m)
 ```
