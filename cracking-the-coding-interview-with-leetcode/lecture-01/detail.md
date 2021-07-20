@@ -38,6 +38,7 @@ You can use the *for in* loop to loop through all the elements of an array. Prin
 \
 \
 \
+
 ## Time Complexity
 
 The time complexity is the number of operations an algorithm performs to complete its task(*considering that each operation takes the same amount of time*).
@@ -97,6 +98,4 @@ We can improve our solution
 ```
 
 Now we don't need extra array, memory space remain constant. Memory complexity will be *O(1)*.
-While loop will run n/2 times where length of the array is equal to the n. So the complexity will be *O(n/2)*. 
-
-text here <span style="text-decoration: underline">underlined text</span> other text
+While loop will run n/2 times where length of the array is equal to the n. So the complexity will be *O(n/2)*.
