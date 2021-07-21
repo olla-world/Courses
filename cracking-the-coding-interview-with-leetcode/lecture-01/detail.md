@@ -2,7 +2,7 @@
 
 An array is a collection of items stored at contiguous memory locations, each identifed by at least one _array index or key_. The index of an array of size N can range from 0 to N-1.
 
-:pushpin: Python does not have built-in support for arrays, but Python Lists can be used instead.
+**Note:** Python does not have built-in support for arrays, but Python Lists can be used instead.
 
 Create an array containing mango names:
 
