@@ -95,4 +95,4 @@ We can improve our solution
 ```
 
 Now we don't need extra array, memory space remain constant. Memory complexity will be _O(1)_.
-While loop will run n/2 times where length of the array is equal to the n. So the complexity will be _O(n/2)_ 
+_While loop_ will run n/2 times where length of the array is equal to the n. So the complexity will be _O(n/2)_ 
