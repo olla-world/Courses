@@ -1,4 +1,4 @@
-## Arrays
+# Arrays
 
 An array is a collection of items stored at contiguous memory locations, each identifed by at least one _array index or key_. The index of an array of size N can range from 0 to N-1.
 
@@ -35,7 +35,7 @@ You can use the _for in_ loop to loop through all the elements of an array. Prin
         print(m)
 ```
 
-## Time Complexity
+# Time Complexity
 
 The time complexity is the number of operations an algorithm performs to complete its task(_considering that each operation takes the same amount of time_).
 
@@ -94,4 +94,8 @@ We can improve our solution
 ```
 
 Now we don't need extra array, memory space remain constant. Memory complexity will be _O(1)_.
-_While loop_ will run n/2 times where length of the array is equal to the n. So the complexity will be _O(n/2)_ 
+_While loop_ will run n/2 times where length of the array is equal to the n. So the complexity will be _O(n/2)_.
+
+## Home Work
+
+* [Two Sum](https://leetcode.com/problems/two-sum/)
