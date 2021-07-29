@@ -37,7 +37,7 @@ You can use the _for in_ loop to loop through all the elements of an array. Prin
 
 # Time Complexity
 
-The time complexity is the number of operations an algorithm performs to complete its task(_considering that each operation takes the same amount of time_).
+The time complexity is the number of operations an algorithm performs to complete its task _(considering that each operation takes the same amount of time)_.
 
 **Note:** The algorithm that performs the task in the smallest number of operations is considered the most efficient one in the terms of the time complexity.
 
@@ -73,7 +73,7 @@ Now we want to reverse the given array
     return result
 ```
 
-Here this while loop will run n times , where n is equal to the length of the array. So, number of operations will be n and the time complexity will be _O(n)_. Beside this we need a new array(_result_) which has same number of elements as _numbers_ array. For this, the memory complexity will be _O(n)_
+Here this while loop will run n times , where n is equal to the length of the array. So, number of operations will be n and the time complexity will be _O(n)_. Beside this we need a new array _(result)_ which has same number of elements as _numbers_ array. For this, the memory complexity will be _O(n)_
 
 We can improve our solution
 
@@ -99,3 +99,11 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 ## Home Work
 
 * [Two Sum](https://leetcode.com/problems/two-sum/)
+
+### Home Work Solutions
+
+**Two Sum**
+_Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target._
+_You may assume that each input would have exactly one solution, and you may not use the same element twice._
+_You can return the answer in any order._
+
