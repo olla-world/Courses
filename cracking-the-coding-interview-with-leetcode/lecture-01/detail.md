@@ -98,38 +98,38 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 
 ## Home Work Solutions
 
-* **[Two Sum] (<https://leetcode.com/problems/two-sum/>)**
+* **[Two Sum] (https://leetcode.com/problems/two-sum)**
 
-#### 1st Solution
+    #### 1st Solution
 
-```Python
-    class solution:
-        def twoSum(self, nums, target):
-            length = len(nums)
-            for i in range(length):
-                for j in range(i + 1, length):
-                    if nums[i] + nums[j] == target:
-                        return [i, j]
-```
+    ```Python
+        class solution:
+            def twoSum(self, nums, target):
+                length = len(nums)
+                for i in range(length):
+                    for j in range(i + 1, length):
+                        if nums[i] + nums[j] == target:
+                            return [i, j]
+    ```
 
-Time Complexity: _O(n^2)_
-Memory Complexity: _O(1)_
+    Time Complexity: _O(n^2)_
+    Memory Complexity: _O(1)_
 
-#### 2nd Solution
+    #### 2nd Solution
 
-```Python
-    class solution:
-        def twoSum(self, nums, target):
-            hash_table = dict()
-            length = len(nums)
+    ```Python
+        class solution:
+            def twoSum(self, nums, target):
+                hash_table = dict()
+                length = len(nums)
 
-            for i in range(length):
-                diff = target - nums[i]
-                if diff in hash_table:
-                    return [i, hash_table[diff]]
-                else:
-                    hash_table[nums[i]] = i
-```
+                for i in range(length):
+                    diff = target - nums[i]
+                    if diff in hash_table:
+                        return [i, hash_table[diff]]
+                    else:
+                        hash_table[nums[i]] = i
+    ```
 
-Time Complexity: _O(n)_
-Memory Complexity: _O(n)_
+    Time Complexity: _O(n)_
+    Memory Complexity: _O(n)_
