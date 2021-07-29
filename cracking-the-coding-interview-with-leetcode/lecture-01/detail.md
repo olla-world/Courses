@@ -98,11 +98,12 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 
 ## Home Work
 
-* [Two Sum](https://leetcode.com/problems/two-sum/)
+* [Two Sum]
 
-### Home Work Solutions
+## Home Work Solutions
 
-**Two Sum**
+* **[Two Sum] (https://leetcode.com/problems/two-sum/)**
+
 > Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 >
 >You may assume that each input would have exactly one solution, and you may not use the same element twice.
