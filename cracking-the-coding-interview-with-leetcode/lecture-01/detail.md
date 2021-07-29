@@ -100,7 +100,7 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 
 ## Home Work Solutions
 
-* [Two Sum](https://leetcode.com/problems/two-sum/)
+* **[Two Sum](https://leetcode.com/problems/two-sum/)**
 
     **1st Solution**
 
