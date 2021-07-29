@@ -122,3 +122,23 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 ```
 
 Time Complexity: _O(n^2)_
+Memory Complexity: _O(1)_
+
+#### 2nd Solution
+
+```Python
+    class solution:
+        def twoSum(self, nums, target):
+            hash_table = dict()
+            length = len(nums)
+
+            for i in range(length):
+                diff = target - nums[i]
+                if diff in hash_table:
+                    return [i, hash_table[diff]]
+                else:
+                    hash_table[nums[i]] = i
+```
+
+Time Complexity: _O(n)_
+Memory Complexity: _O(n)_
