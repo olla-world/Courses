@@ -96,19 +96,9 @@ We can improve our solution
 Now we don't need extra array, memory space remain constant. Memory complexity will be _O(1)_.
 _While loop_ will run n/2 times where length of the array is equal to the n. So the complexity will be _O(n/2)_.
 
-## Home Work
-
-* [Two Sum]
-
 ## Home Work Solutions
 
-* **[Two Sum] (https://leetcode.com/problems/two-sum/)**
-
-> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
->
->You may assume that each input would have exactly one solution, and you may not use the same element twice.
->
->You can return the answer in any order.
+* **[Two Sum] (<https://leetcode.com/problems/two-sum/>)**
 
 #### 1st Solution
 
