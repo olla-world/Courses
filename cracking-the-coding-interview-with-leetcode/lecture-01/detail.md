@@ -115,6 +115,7 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
     ```
 
     > Time Complexity: _O(n^2)_
+    >
     > Memory Complexity: _O(1)_
 
     **2nd Solution**
@@ -134,4 +135,5 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
     ```
 
     > Time Complexity: _O(n)_
+    >
     > Memory Complexity: _O(n)_
