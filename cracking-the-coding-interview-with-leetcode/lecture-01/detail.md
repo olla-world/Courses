@@ -96,9 +96,13 @@ We can improve our solution
 Now we don't need extra array, memory space remain constant. Memory complexity will be _O(1)_.
 _While loop_ will run n/2 times where length of the array is equal to the n. So the complexity will be _O(n/2)_.
 
-## Home Work Solutions
+## Home Work
 
-* **[Two Sum] (https://leetcode.com/problems/two-sum)**
+* [Two Sum]
+
+### Home Work Solutions
+
+* **[Two Sum](https://leetcode.com/problems/two-sum/)**
 
     #### 1st Solution
 
