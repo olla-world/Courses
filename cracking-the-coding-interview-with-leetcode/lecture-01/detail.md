@@ -102,7 +102,7 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 
 - **[Two Sum](https://leetcode.com/problems/two-sum/)**
 
-  - **1st Solution**
+  - > **1st Solution**
 
     ```Python
         class solution:
@@ -114,10 +114,10 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
                             return [i, j]
     ```
 
-    > Time Complexity: _O(n^2)_.
-    > Memory Complexity: _O(1)_.
+    Time Complexity: _O(n^2)_.
+    Memory Complexity: _O(1)_.
 
-  - **2nd Solution**
+  - > **2nd Solution**
 
     ```Python
         class solution:
@@ -133,5 +133,5 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
                         hash_table[nums[i]] = i
     ```
 
-    > Time Complexity: _O(n)_.
-    > Memory Complexity: _O(n)_.
+    Time Complexity: _O(n)_.
+    Memory Complexity: _O(n)_.
