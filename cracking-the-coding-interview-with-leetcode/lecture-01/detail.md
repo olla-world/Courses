@@ -103,9 +103,8 @@ _While loop_ will run n/2 times where length of the array is equal to the n. So 
 ### Home Work Solutions
 
 **Two Sum**
-_Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target._
-_You may assume that each input would have exactly one solution, and you may not use the same element twice._
-_You can return the answer in any order._
+
+> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.You may assume that each input would have exactly one solution, and you may not use the same element twice.You can return the answer in any order.
 
 #### 1st Solution
 
