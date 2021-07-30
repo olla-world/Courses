@@ -4,7 +4,10 @@
             "id": "1",
             "name": "Cracking the Coding Interview with LeetCode",
             "banner": "https://i.ibb.co/v3HJ6JT/Craking-the-coding-interview-with-leetcode.jpg",
-            "backgroundColor": "#eba33f"
+            "backgroundColor": "#eba33f",
+            "berif": "It is basicaly a proramming course, based on data structure and algorithm.",
+            "start_date": "17-07-2021",
+            "end_date":"..."
         }
     ]
 } 
