@@ -5,10 +5,12 @@
             "name": "Cracking the Coding Interview with LeetCode",
             "banner": "https://i.ibb.co/v3HJ6JT/Craking-the-coding-interview-with-leetcode.jpg",
             "backgroundColor": "#eba33f",
-            "berif": "It is basicaly a proramming course, based on data structure and algorithm.",
+            "berif": "It is basically a proramming course, based on data structure and algorithm.",
             "github":"https://github.com/olla-world/Pattho-Dhara/tree/main/cracking-the-coding-interview-with-leetcode",
             "start_date": "17-07-2021",
-            "end_date":"..."
+            "end_date":"...",
+            "total_lecture":15,
+            "current_lecture":1
         }
     ]
 } 
