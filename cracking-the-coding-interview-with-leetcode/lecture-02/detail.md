@@ -1,6 +1,6 @@
 # Python OOP, Mutable vs Immutable and Two Pointer Technique
 
-## Object-oriented programming (OOP)
+## Overview of Object-oriented programming (OOP)
 
 object-oriented programming is a programming paradigm based on the concept of `object`  and `class`. A class can be thought of as a `blueprint` for objects which can contain data and code: data as attributes or properties , and code in form of methods. Object-oriented programming has some advantages over other design patterns. Many of the most widely used programming languages _(such as C++, Java, Python, etc.)_ are multi-paradigm and they support object-oriented programming to a greater or lesser degree.
 
@@ -24,7 +24,7 @@ The four pillars of object-oriented programming are:
 
 **Polymorphism** : many methods can do the same task.
 
-## Object-Oriented Programming (OOP) in Python
+## Brief on class and object in Python
 
 ### Create a class
 
