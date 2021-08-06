@@ -32,10 +32,10 @@ _class_ keyword is used to define a class in Python. Inside the class, an _ __in
 Lets create a _Fruit_ class
 
 ```Python
-  class Fruit:
-    def __init__(self, name, color, taste):
-      self.name = name
-      self.color = color
-      self.taste = taste
+    class Fruit:
+        def __init__(self, name, color, taste):
+            self.name = name
+            self.color = color
+            self.taste = taste
 ```
 
