@@ -1,8 +1,10 @@
 {
     "list":[{
+        "id":1,
         "label":"Lecture 01",
         "type": "lecture"
     },{
+        "id":2,
         "label":"Lecture 02",
         "type": "lecture"
     }]
