@@ -30,6 +30,7 @@ The four pillars of object-oriented programming are:
 
 _class_ keyword is used to define a class in Python. Inside the class, an _ __init__ _ has to be defined with _def_.This is the initializer to instantiate objects. It takes one argument: _self_, which refers to the object itself.
 Lets create a _Fruit_ class
+
 ```Python
   class Fruit:
     def __init__(self, name, color, taste):
