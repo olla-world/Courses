@@ -24,3 +24,17 @@ The four pillars of object-oriented programming are:
 
 **Polymorphism** : many methods can do the same task.
 
+## Object-Oriented Programming (OOP) in Python
+
+### Create a Class
+
+_class_ keyword is used to define a class in Python. Inside the class, an _ __init__ _ has to be defined with _def_.This is the initializer to instantiate objects. It takes one argument: _self_, which refers to the object itself.
+Lets create a _Fruit_ class
+```Python
+  class Fruit:
+    def __init__(self, name, color, taste):
+      self.name = name
+      self.color = color
+      self.taste = taste
+```
+
