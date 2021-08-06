@@ -1,6 +1,6 @@
 # Python OOP, Mutable vs Immutable and Two Pointer Technique
 
-## Object-Oriented Programming (OOP)
+## Object-oriented programming (OOP)
 
 object-oriented programming is a programming paradigm based on the concept of `object`  and `class`. A class can be thought of as a `blueprint` for objects which can contain data and code: data as attributes or properties , and code in form of methods. Object-oriented programming has some advantages over other design patterns. Many of the most widely used programming languages _(such as C++, Java, Python, etc.)_ are multi-paradigm and they support object-oriented programming to a greater or lesser degree.
 
@@ -26,7 +26,7 @@ The four pillars of object-oriented programming are:
 
 ## Object-Oriented Programming (OOP) in Python
 
-### Create a Class
+### Create a class
 
 `class` keyword is used to define a class in Python. Inside the class, an `__init__` has to be defined with `def`.This is the initializer to instantiate objects. It takes one argument: `self`, which refers to the object itself.
 Lets create a `Fruit` class
@@ -39,14 +39,44 @@ Lets create a `Fruit` class
             self.taste = taste
 ```
 
-### Create an Instance
+### Create an instance
 
 To create `instance` of a class, have to call the class using class name and pass the arguments in its `__init__` method. For Example
 
 ```Python
-    mango = Fruit("Umrupali", "Red", "Sweet")
+    mango = Fruit("Mango", "Red", "Sweet")
 ```
 
 Here `mango` is an object of `Fruit`.
+
+> To access an object's attributes in Python, need to use the `dot notation`. This is done by typing the name of the object, followed by a dot and the attribute's name.
+
+```Python
+    print(mango.name)
+```
+
+### Define a methods in a class
+
+Any class may have multiple methods except the `__init__` method. Class-methods have to be defined with `def` and each of them must have the `self` argument.
+
+```Python
+    class Fruit:
+        def __init__(self, name, color, taste):
+            self.name = name
+            self.color = color
+            self.taste = taste
+        
+        def intro(self):
+            print(self.name + " is tasted " + self.taste)
+```
+
+> Here, `intro` is a class-method. Any instance of Fruit class may access this method using the dot notation.
+
+```Python
+    mango.intro()
+```
+
+
+
 
 
