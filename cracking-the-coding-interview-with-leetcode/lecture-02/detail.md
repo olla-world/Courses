@@ -99,7 +99,7 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 ```
 > Time Complexity `O(n)`
 >
-> Memory Complexity: O(n).
+> Memory Complexity: `O(n)`.
 
 ### [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
@@ -122,7 +122,9 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 
             return result
 ```
-
+> Time Complexity `O(n)`
+>
+> Memory Complexity: `O(1)`.
 
 
 
