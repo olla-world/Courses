@@ -43,7 +43,7 @@ The time complexity is the number of operations an algorithm performs to complet
 
 **Note:** The algorithm that performs the task in the smallest number of operations is considered the most efficient one in the terms of the time complexity.
 
-### Linear Search
+## Coding exercise
 
 Assume we have an given array and a value. Now we have to find the value in the array
 
