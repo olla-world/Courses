@@ -39,3 +39,14 @@ Lets create a `Fruit` class
             self.taste = taste
 ```
 
+### Create a Instance
+
+To create `instance` of a class, have to call the class using class name and pass the arguments in its `__init__` method. For Example
+
+```Python
+    mango = Fruit("Umrupali", "Red", "Sweet")
+```
+
+Here `mango` is an object of `Fruit`.
+
+
