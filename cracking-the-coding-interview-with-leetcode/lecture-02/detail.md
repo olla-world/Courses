@@ -128,7 +128,7 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 
 #### Mathmatical proof for Two Sum II
 
-given a sorted array <br/>
-assume , i < j `where i and j are 2 index of the given array` <br/>
+`given a sorted array`
+`assume , i < j where i and j are 2 index of the given array`
 
 
