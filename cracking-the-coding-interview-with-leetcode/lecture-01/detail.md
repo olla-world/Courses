@@ -37,7 +37,7 @@ You can use the `for in` loop to loop through all the elements of an array. Prin
         print(m)
 ```
 
-## Time Complexity
+## Time complexity
 
 The time complexity is the number of operations an algorithm performs to complete its task _(considering that each operation takes the same amount of time)_.
 
@@ -98,7 +98,7 @@ We can improve our solution
 Now we don't need extra array, memory space remain constant. Memory complexity will be `O(1)`.
 `While loop` will run n/2 times where length of the array is equal to the n. So the complexity will be `O(n/2)`.
 
-## Home Work Solutions
+## Home work solutions
 
 - **[Two Sum](https://leetcode.com/problems/two-sum/)**
 
