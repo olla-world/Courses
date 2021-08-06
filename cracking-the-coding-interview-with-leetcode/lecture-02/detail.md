@@ -7,8 +7,6 @@ object-oriented programming is a programming paradigm based on the concept of __
 ### Objects and classes
 Languages that support object-oriented programming (OOP) typically use inheritance for code reuse and extensibility in the form of either classes or prototypes. Those that use classes support two main concepts:
 
-- **Classes** : the definitions for the data format and available procedures for a given type or class of object; may also contain data and procedures (known as class methods) themselves, i.e. classes contain the data members and member functions.
+**Classes** : the definitions for the data format and available procedures for a given type or class of object; may also contain data and procedures (known as class methods) themselves, i.e. classes contain the data members and member functions.
 
-<br/>
-
-- **Objects** : instances of classes.
+**Objects** : instances of classes.
