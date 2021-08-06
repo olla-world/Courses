@@ -24,6 +24,7 @@ The four pillars of object-oriented programming are:
 
 **Polymorphism** : many methods can do the same task.
 
+
 ## Brief on class and object in Python
 
 ### Create a class
@@ -75,6 +76,53 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 ```Python
     mango.intro()
 ```
+
+## Coding exercise
+
+### [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
+```Python
+    class Solution(object):
+        def isPalindrome(self, s):
+            mod_s = [c.lower() for c in s if c.isalnum()]
+
+            start = 0
+            end = len(mod_s) - 1
+            while start <= end:
+                if mod_s[start] != mod_s[end]:
+                    return False
+                
+                start = start + 1
+                end = end - 1
+
+            return True
+```
+> Time Complexity `O(n)`
+>
+> Memory Complexity: O(n).
+
+### [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+
+```Python
+    class Solution(object):
+        def twoSum(self, numbers, target):
+            result = []
+
+            start = 0
+            end = len(numbers) - 1
+            while start <= end:
+                tow_sum = numbers[start] + numbers[end]
+                if target == tow_sum:
+                    result = [start + 1, end + 1]
+                    break
+                elif tow_sum > target:
+                    end = end - 1
+                elif tow_sum < target:
+                    start = start + 1
+
+            return result
+```
+
 
 
 
