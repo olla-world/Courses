@@ -2,15 +2,15 @@
 
 ## Object-Oriented Programming (OOP)
 
-object-oriented programming is a programming paradigm based on the concept of __object__  and __class__. A class can be thought of as a _blueprint_ for objects which can contain data and code: data as attributes or properties , and code in form of methods. Object-oriented programming has some advantages over other design patterns. Many of the most widely used programming languages _(such as C++, Java, Python, etc.)_ are multi-paradigm and they support object-oriented programming to a greater or lesser degree.
+object-oriented programming is a programming paradigm based on the concept of `object`  and `class`. A class can be thought of as a `blueprint` for objects which can contain data and code: data as attributes or properties , and code in form of methods. Object-oriented programming has some advantages over other design patterns. Many of the most widely used programming languages _(such as C++, Java, Python, etc.)_ are multi-paradigm and they support object-oriented programming to a greater or lesser degree.
 
 ### Objects and Classes
 
 Languages that support object-oriented programming (OOP) typically use inheritance for code reuse and extensibility in the form of either classes or prototypes. Those that use classes support two main concepts:
 
-**Classes** : the definitions for the data format and available procedures _(methods)_ for a given type or class of object; may also contain data and procedures (known as class methods) themselves, i.e. classes contain the data members and member functions.
+**Classes** : the definitions for the data format and available procedures _(methods)_ for a given type or class of object; may also contain data and procedures _(known as class methods)_ themselves, i.e. classes contain the data members and member functions.
 
-**Objects** : instances of classes.Each object is a _instance variables_ of a particular class.
+**Objects** : instances of classes.Each object is a `instance variables` of a particular class.
 
 ### Four Principles of OOP
 
@@ -28,8 +28,8 @@ The four pillars of object-oriented programming are:
 
 ### Create a Class
 
-_class_ keyword is used to define a class in Python. Inside the class, an `__init__` has to be defined with _def_.This is the initializer to instantiate objects. It takes one argument: _self_, which refers to the object itself.
-Lets create a _Fruit_ class
+`class` keyword is used to define a class in Python. Inside the class, an `__init__` has to be defined with `def`.This is the initializer to instantiate objects. It takes one argument: `self`, which refers to the object itself.
+Lets create a `Fruit` class
 
 ```Python
     class Fruit:
