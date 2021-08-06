@@ -2,5 +2,8 @@
     "list":[{
         "label":"Lecture 01",
         "type": "lecture"
+    },{
+        "label":"Lecture 02",
+        "type": "lecture"
     }]
 }
