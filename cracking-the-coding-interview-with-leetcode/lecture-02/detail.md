@@ -130,7 +130,8 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 
 ```
     given a sorted array
-    assume , i < j where i and j are 2 index of the given array
+    assume , i < j                          where i and j are 2 index of the given array
+    so a<sub>i</sub> < a<sub>j</sub>        where a<sub>i</sub> and a<sub>j</sub> are array element 
 ```
 
 
