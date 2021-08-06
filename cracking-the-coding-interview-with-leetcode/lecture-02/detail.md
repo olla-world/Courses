@@ -129,9 +129,30 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 #### Mathmatical proof for Two Sum II
 
 ```
-    given a sorted array
-    assume , i < j                          where i and j are 2 index of the given array
-    so a<sub>i</sub> < a<sub>j</sub>        where a<sub>i</sub> and a<sub>j</sub> are array element 
-```
+given,          an incrementally sorted array  
+                &  a target value ‘t’
+                
+assume,         i < j    	        where ‘i’ and ‘j’ are two indexes of that array
+so, 	        a[i] <= a[j]  	    where ‘a[i]’, ’a[j]’  are two elements of that given array 
 
+have to find 	a[i] + a[j] = t
+
+if 	a[i] + a[j] != t  
+a[i] + a[j] > t    or   a[i] + a[j] < t
+
+we know,            a[i] < a[j]                 or              a[i] = a[j]
+              =>    t - a[j] < a[i] < a[j]                =>    a[j] > t - a[j]
+              =>    t - a[j] < a[j]                       =>    t < a[j]
+              =>    t < a[j]
+              
+              from this we can say that we need to reduce the value of j to get the smaller value than a[j]
+              
+again,
+                    a[i] < a[j]                 or              a[i] = a[j]   
+               =>   a[i] < a[j] < t - a[i]                =>    a[i] < t - a[i]        
+               =>   a[i] < t- a[i]                        =>    a[i] < t
+               =>   a[i] < t
+               
+               from this we can say that we need to increase the value of i to get the bigger value than a[i]
+```
 
