@@ -126,7 +126,7 @@ Any class may have multiple methods except the `__init__` method. Class-methods 
 >
 > Memory Complexity: `O(1)`.
 
-#### Mathmatical proof for Two Sum II
+#### Mathmatical proof
 
 ```
 given,          an incrementally sorted array  
