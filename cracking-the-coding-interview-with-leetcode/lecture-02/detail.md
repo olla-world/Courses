@@ -327,30 +327,30 @@ The last immutable sequence type we’re going to see is the tuple. A tuple is a
 #### Mathmatical proof
 
 ```
-given,          an incrementally sorted array  
-                &  a target value ‘t’
-                
-assume,         i < j    	        where ‘i’ and ‘j’ are two indexes of that array
-so, 	        a[i] <= a[j]  	    where ‘a[i]’, ’a[j]’  are two elements of that given array 
+    given,          an incrementally sorted array  
+                    &  a target value ‘t’
 
-have to find 	a[i] + a[j] = t
+    assume,         i < j    	        where ‘i’ and ‘j’ are two indexes of that array
+    so, 	        a[i] <= a[j]  	    where ‘a[i]’, ’a[j]’  are two elements of that given array 
 
-if 	a[i] + a[j] != t  
-a[i] + a[j] > t    or   a[i] + a[j] < t
+    have to find 	a[i] + a[j] = t
 
-we know,            a[i] < a[j]                 or              a[i] = a[j]
-              =>    t - a[j] < a[i] < a[j]                =>    a[j] > t - a[j]
-              =>    t - a[j] < a[j]                       =>    t < a[j]
-              =>    t < a[j]
-              
-              from this we can say that we need to reduce the value of j to get the smaller value than a[j]
-              
-again,
-                    a[i] < a[j]                 or              a[i] = a[j]   
-               =>   a[i] < a[j] < t - a[i]                =>    a[i] < t - a[i]        
-               =>   a[i] < t- a[i]                        =>    a[i] < t
-               =>   a[i] < t
-               
-               from this we can say that we need to increase the value of i to get the bigger value than a[i]
+    if 	a[i] + a[j] != t  
+    a[i] + a[j] > t    or   a[i] + a[j] < t
+
+    we know,            a[i] < a[j]                 or              a[i] = a[j]
+                  =>    t - a[j] < a[i] < a[j]                =>    a[j] > t - a[j]
+                  =>    t - a[j] < a[j]                       =>    t < a[j]
+                  =>    t < a[j]
+
+                  from this we can say that we need to reduce the value of j to get the smaller value than a[j]
+
+    again,
+                        a[i] < a[j]                 or              a[i] = a[j]   
+                   =>   a[i] < a[j] < t - a[i]                =>    a[i] < t - a[i]        
+                   =>   a[i] < t- a[i]                        =>    a[i] < t
+                   =>   a[i] < t
+
+                   from this we can say that we need to increase the value of i to get the bigger value than a[i]
 ```
 
