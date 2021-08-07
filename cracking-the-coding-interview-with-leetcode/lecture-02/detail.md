@@ -1,4 +1,4 @@
-# Python OOP, Mutable vs Immutable and Two Pointer Technique
+# OOP, Mutable vs Immutable and Two Pointer Technique
 
 ## Overview of Object-oriented programming (OOP)
 
