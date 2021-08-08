@@ -354,3 +354,45 @@ The last immutable sequence type we’re going to see is the tuple. A tuple is a
                    from this we can say that we need to increase the value of i to get the bigger value than a[i]
 ```
 
+## Home work solutions
+
+- **[Remove Duplicates (Sorted Array)](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)**
+
+  - **Solution**
+
+- **[Remove Element](https://leetcode.com/problems/remove-element/)**
+
+  - **Solution**
+
+- **[Search Insert Position](https://leetcode.com/problems/search-insert-position/)**
+
+  - **Solution**
+
+- **[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)**
+
+  - **Solution**
+
+- **[Plus One](https://leetcode.com/problems/plus-one/)**
+
+  - **Solution**
+
+- **[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)**
+
+  - **Solution**
+
+- **[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)**
+
+  - **Solution**
+
+- **[Pascals Triangle](https://leetcode.com/problems/pascals-triangle/)**
+
+  - **Solution**
+
+- **[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)**
+
+  - **Solution**
+
+- **[Best Time to Buy and Sell Stock (ii)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)**
+
+  - **Solution**
+
