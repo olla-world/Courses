@@ -360,6 +360,34 @@ The last immutable sequence type we’re going to see is the tuple. A tuple is a
 
   - **Solution**
 
+    ```Python
+        class Solution(object):
+            def removeDuplicates(self, nums):
+                first_pointer = 0
+                second_pointer = 1
+                total = 1
+                length = len(nums)
+                
+                if length == 0:
+                    return 0
+                elif length == 1:
+                    return 1
+                else:
+                    while second_pointer < length :
+                        if nums[first_pointer] == nums[second_pointer]:
+                            second_pointer = second_pointer + 1
+                        else :
+                            total = total + 1
+                            first_pointer = first_pointer + 1
+                            nums[first_pointer] = nums[second_pointer]
+                        
+                return total
+    ```
+
+    > Time Complexity: `O(n)`.
+    >
+    > Memory Complexity: `O(1)`.
+
 - **[Remove Element](https://leetcode.com/problems/remove-element/)**
 
   - **Solution**
