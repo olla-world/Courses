@@ -1,3 +1,3 @@
 ### Course
 
-This repo is for manange all leactures and homework of Courses attend by me.
+This repo is for manage all lectures and homework of courses attended by me.
